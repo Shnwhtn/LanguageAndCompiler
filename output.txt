@@ -1,0 +1,183 @@
+ Item: 0 nodeIndentifier: PROGRAM
+   nodeIndentifier: BLOCK
+       Item: 1 nodeIndentifier: DECLARATION_BLOCK_COMMA
+          Item: 2 nodeIndentifier: DECLARATION_BLOCK
+            nodeIndentifier: TYPE_BLOCK
+                Item: 283 nodeIndentifier: TYPE
+      nodeIndentifier: STATEMENT_LIST
+         nodeIndentifier: STATEMENT
+             Item: 1 nodeIndentifier: READ_STATEMENT
+         nodeIndentifier: STATEMENT_LIST
+            nodeIndentifier: STATEMENT
+               nodeIndentifier: IF_STATEMENT
+                   Item: 302 nodeIndentifier: CONDITIONAL
+                     nodeIndentifier: CONDITIONAL_STATEMENT
+                        nodeIndentifier: EXPRESSION
+                           nodeIndentifier: TERM
+                               Item: 1 nodeIndentifier: VALUE
+                         Item: 269 nodeIndentifier: COMPARATOR
+                        nodeIndentifier: EXPRESSION
+                           nodeIndentifier: TERM
+                              nodeIndentifier: VALUE_CONSTANT
+                                 nodeIndentifier: CONSTANT
+                                    nodeIndentifier: NUMBER_CONSTANT_POSITIVE
+                                        Item: 3 nodeIndentifier: NUMBER_CONSTANT
+                     nodeIndentifier: CONDITIONAL
+                        nodeIndentifier: CONDITIONAL_STATEMENT
+                           nodeIndentifier: EXPRESSION
+                              nodeIndentifier: TERM
+                                  Item: 1 nodeIndentifier: VALUE
+                            Item: 270 nodeIndentifier: COMPARATOR
+                           nodeIndentifier: EXPRESSION
+                              nodeIndentifier: TERM
+                                 nodeIndentifier: VALUE_CONSTANT
+                                    nodeIndentifier: CONSTANT
+                                       nodeIndentifier: NUMBER_CONSTANT_POSITIVE
+                                           Item: 4 nodeIndentifier: NUMBER_CONSTANT
+                  nodeIndentifier: STATEMENT_LIST
+                     nodeIndentifier: STATEMENT
+                        nodeIndentifier: WRITE_STATEMENT
+                           nodeIndentifier: OUTPUT_LIST
+                               Item: 1 nodeIndentifier: VALUE
+            nodeIndentifier: STATEMENT_LIST
+               nodeIndentifier: STATEMENT
+                  nodeIndentifier: WRITE_STATEMENT
+                     nodeIndentifier: OUTPUT_LIST
+                        nodeIndentifier: VALUE_BRACKETS
+                           nodeIndentifier: EXPRESSION_MINUS
+                              nodeIndentifier: TERM
+                                 nodeIndentifier: VALUE_CONSTANT
+                                    nodeIndentifier: CONSTANT
+                                       nodeIndentifier: NUMBER_CONSTANT_POSITIVE
+                                           Item: 5 nodeIndentifier: FLOAT_NUMBER_CONSTANT
+                              nodeIndentifier: EXPRESSION
+                                 nodeIndentifier: TERM
+                                    nodeIndentifier: VALUE_CONSTANT
+                                       nodeIndentifier: CONSTANT
+                                          nodeIndentifier: NUMBER_CONSTANT_POSITIVE
+                                              Item: 6 nodeIndentifier: FLOAT_NUMBER_CONSTANT
+               nodeIndentifier: STATEMENT_LIST
+                  nodeIndentifier: STATEMENT
+                     nodeIndentifier: DO_NEWLINE
+                  nodeIndentifier: STATEMENT_LIST
+                     nodeIndentifier: STATEMENT
+                        nodeIndentifier: FOR_STATEMENT
+                            Item: 1 nodeIndentifier: FORCHECK
+                              nodeIndentifier: EXPRESSION
+                                 nodeIndentifier: TERM
+                                    nodeIndentifier: VALUE_CONSTANT
+                                       nodeIndentifier: CONSTANT
+                                          nodeIndentifier: NUMBER_CONSTANT_NEGATIVE
+                                              Item: 7 nodeIndentifier: NUMBER_CONSTANT
+                              nodeIndentifier: EXPRESSION
+                                 nodeIndentifier: TERM
+                                    nodeIndentifier: VALUE_CONSTANT
+                                       nodeIndentifier: CONSTANT
+                                          nodeIndentifier: NUMBER_CONSTANT_NEGATIVE
+                                              Item: 7 nodeIndentifier: NUMBER_CONSTANT
+                              nodeIndentifier: EXPRESSION
+                                 nodeIndentifier: TERM
+                                    nodeIndentifier: VALUE_CONSTANT
+                                       nodeIndentifier: CONSTANT
+                                          nodeIndentifier: NUMBER_CONSTANT_NEGATIVE
+                                              Item: 3 nodeIndentifier: NUMBER_CONSTANT
+                           nodeIndentifier: STATEMENT_LIST
+                              nodeIndentifier: STATEMENT
+                                 nodeIndentifier: WRITE_STATEMENT
+                                    nodeIndentifier: OUTPUT_LIST
+                                        Item: 1 nodeIndentifier: VALUE
+                              nodeIndentifier: STATEMENT_LIST
+                                 nodeIndentifier: STATEMENT
+                                    nodeIndentifier: DO_NEWLINE
+                     nodeIndentifier: STATEMENT_LIST
+                        nodeIndentifier: STATEMENT
+                           Identifier: i nodeIndentifier: ASSIGNMENT_STATEMENT
+                              nodeIndentifier: EXPRESSION
+                                 nodeIndentifier: TERM
+                                    nodeIndentifier: VALUE_CONSTANT
+                                       nodeIndentifier: CONSTANT
+                                          nodeIndentifier: NUMBER_CONSTANT_NEGATIVE
+                                              Item: 7 nodeIndentifier: NUMBER_CONSTANT
+                        nodeIndentifier: STATEMENT_LIST
+                           nodeIndentifier: STATEMENT
+                              nodeIndentifier: FOR_STATEMENT
+                                  Item: 1 nodeIndentifier: FORCHECK
+                                    nodeIndentifier: EXPRESSION
+                                       nodeIndentifier: MULTIPLY_TERM
+                                           Item: 2 nodeIndentifier: VALUE
+                                          nodeIndentifier: MULTIPLY_TERM
+                                              Item: 2 nodeIndentifier: VALUE
+                                             nodeIndentifier: TERM
+                                                 Item: 2 nodeIndentifier: VALUE
+                                    nodeIndentifier: EXPRESSION
+                                       nodeIndentifier: MULTIPLY_TERM
+                                           Item: 2 nodeIndentifier: VALUE
+                                          nodeIndentifier: MULTIPLY_TERM
+                                              Item: 2 nodeIndentifier: VALUE
+                                             nodeIndentifier: MULTIPLY_TERM
+                                                 Item: 2 nodeIndentifier: VALUE
+                                                nodeIndentifier: MULTIPLY_TERM
+                                                    Item: 2 nodeIndentifier: VALUE
+                                                   nodeIndentifier: TERM
+                                                       Item: 2 nodeIndentifier: VALUE
+                                    nodeIndentifier: EXPRESSION
+                                       nodeIndentifier: MULTIPLY_TERM
+                                           Item: 2 nodeIndentifier: VALUE
+                                          nodeIndentifier: MULTIPLY_TERM
+                                              Item: 2 nodeIndentifier: VALUE
+                                             nodeIndentifier: TERM
+                                                nodeIndentifier: VALUE_BRACKETS
+                                                   nodeIndentifier: EXPRESSION_PLUS
+                                                      nodeIndentifier: TERM
+                                                          Item: 2 nodeIndentifier: VALUE
+                                                      nodeIndentifier: EXPRESSION_PLUS
+                                                         nodeIndentifier: TERM
+                                                             Item: 2 nodeIndentifier: VALUE
+                                                         nodeIndentifier: EXPRESSION_PLUS
+                                                            nodeIndentifier: TERM
+                                                                Item: 2 nodeIndentifier: VALUE
+                                                            nodeIndentifier: EXPRESSION_PLUS
+                                                               nodeIndentifier: TERM
+                                                                   Item: 2 nodeIndentifier: VALUE
+                                                               nodeIndentifier: EXPRESSION
+                                                                  nodeIndentifier: TERM
+                                                                      Item: 2 nodeIndentifier: VALUE
+                                 nodeIndentifier: STATEMENT_LIST
+                                    nodeIndentifier: STATEMENT
+                                       nodeIndentifier: WRITE_STATEMENT
+                                          nodeIndentifier: OUTPUT_LIST
+                                              Item: 1 nodeIndentifier: VALUE
+                                    nodeIndentifier: STATEMENT_LIST
+                                       nodeIndentifier: STATEMENT
+                                          nodeIndentifier: DO_NEWLINE
+#include <stdio.h>
+
+/* Identifier: ProgV  */
+
+int main(void)
+ {
+/* Declarations */
+
+
+int i,integer;
+/* CODE */
+
+scanf(integer);
+if (integer <= 5 || integer >= 12) {
+printf("integer");
+}
+printf("35.1f-0.1f");
+
+
+for(integer = 1; integer+1; integer5){
+printf("integer");
+
+1 = i;
+
+for(integer = i * i * i; integer+i * i * i * i * i; integeri * i * i+i+i+i+i){
+printf("integer");
+
+
+return 0;
+}
+/* End Program ProgV */
